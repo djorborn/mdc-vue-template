@@ -1,0 +1,7 @@
+@import 'scss/links';
+@import 'scss/main';
+
+.mdc-toolbar {
+   @include mdc-toolbar-fill-color(#fff);
+   @include mdc-toolbar-ink-color(#333);
+}
